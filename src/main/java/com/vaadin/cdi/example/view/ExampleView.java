@@ -6,7 +6,6 @@
 package com.vaadin.cdi.example.view;
 
 import com.vaadin.cdi.CDIView;
-import com.vaadin.data.fieldgroup.BeanFieldGroup;
 import com.vaadin.event.LayoutEvents;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
