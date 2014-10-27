@@ -1,6 +1,5 @@
 package com.vaadin.cdi.example.view;
 
-import com.vaadin.cdi.CDIView;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
 import javax.annotation.PostConstruct;
@@ -11,7 +10,6 @@ import org.vaadin.maddon.layouts.MVerticalLayout;
  *
  * @author Matti Tahvonen <matti@vaadin.com>
  */
-@CDIView("error")
 public class ErrorView extends MVerticalLayout implements View {
 
     @PostConstruct
