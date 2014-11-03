@@ -20,15 +20,6 @@ public class ExampleView extends MVerticalLayout implements View {
         addComponents(
                 new Header("Another view")
         );
-
-        addLayoutClickListener(new LayoutEvents.LayoutClickListener() {
-
-            @Override
-            public void layoutClick(LayoutEvents.LayoutClickEvent event) {
-                
-            }
-        });
-
     }
 
     @Override

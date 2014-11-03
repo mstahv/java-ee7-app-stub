@@ -1,5 +1,6 @@
 package com.vaadin.cdi.example.view;
 
+import com.vaadin.annotations.Theme;
 import com.vaadin.cdi.CDIUI;
 import com.vaadin.cdi.CDIViewProvider;
 import com.vaadin.cdi.example.util.ViewMenu;
@@ -13,7 +14,8 @@ import javax.inject.Inject;
  *
  * @author Matti Tahvonen <matti@vaadin.com>
  */
-@CDIUI
+@CDIUI("")
+@Theme("valo")
 public class MainUI extends UI {
     
     @Inject

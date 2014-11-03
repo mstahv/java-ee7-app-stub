@@ -11,7 +11,7 @@ import org.vaadin.maddon.layouts.MVerticalLayout;
  *
  * @author Matti Tahvonen <matti@vaadin.com>
  */
-@CDIView
+@CDIView("")
 public class DefautView extends MVerticalLayout implements View {
 
     @PostConstruct
